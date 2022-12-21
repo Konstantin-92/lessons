@@ -1,0 +1,120 @@
+/* style general
+------------------*/
+html{
+  font-size: 26px;
+}
+
+
+body{
+  font-family: 'Montserrat';
+  font-style: normal;
+}
+
+.rules-blocks{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.rules-blocks .text{
+  margin: 10px 20px 86px 20px;
+}
+
+h3{
+  margin: auto;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 49px;
+  max-width: 1160px;
+  color: #E31E24;
+}
+
+.MPT{
+  color: #2753A2;
+}
+
+.header p{
+  margin: auto auto 65px auto;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 120%;
+  text-align: center;
+  color: #222222;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 773px;
+}
+
+.cervical-region, .thoracic-region, .lumbar{
+  box-shadow: 0px 0px 10px rgba(39, 83, 162, 0.25);
+  border-radius: 10px;
+  width: 32%;
+}
+
+.cervical-region{
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cervical-region p {
+  font-weight: 500;
+  font-size: 1em;
+  line-height: 140%;
+  text-align: center;
+  color: #222222;
+}
+.cervical-region .title {
+  font-weight: 500;
+  font-size: 1.5em;
+  line-height: 32px;
+  color: #2753A2;  
+}
+
+.thoracic-region{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.thoracic-region p{
+  font-weight: 500;
+  font-size: .7rem;
+  line-height: 140%;
+  text-align: center;
+  color: #222222;
+}
+.thoracic-region .title{
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 32px;
+  text-align: center;
+  color: #2753A2;
+}
+
+.lumbar{
+  font-size: 26px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.lumbar .title{
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 32px;
+  text-align: center;
+  color: #2753A2;
+}
+.lumbar p{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 140%;
+  text-align: center;
+  color: #222222;
+}
+
+svg{
+  width: 80px;
+  height: 80px;
+  margin: 50px auto 20px auto;
+}
