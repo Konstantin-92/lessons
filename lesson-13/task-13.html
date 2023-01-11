@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML</title>
+ </head>
+
+ <body>
+ <script>
+  let name = prompt("Как вас зовут?")
+  let lastname = prompt("Как ваша фамилия?")
+  let age = prompt('Сколько тебе лет?')
+  let sex
+  let isMen = confirm("Вы мужчина?")
+  if(isMen == true){
+    sex = "Мужчина"
+  }else{
+    sex = "Женщина"
+  }
+  let pension
+  if(isMen == true){
+    if(age >= 65){
+      pension = "ДА"
+    }else{
+      pension = "НЕТ"
+    }
+  }else{
+    if(age >= 60){
+      pension = "ДА"
+    }else{
+      pension = "НЕТ"
+    }
+  }
+
+    
+  alert( "Ваше имя:" + name + "\n" + "Ваша фамилия:" + lastname + "\n" + "Ваш пол:" + sex + "\n" + "Ваш возваст:" + age + "\n" + "Вы уже на пенсии:" + pension)
+ </script>
+</body>
+</html>
