@@ -1,0 +1,138 @@
+/* style general
+------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@400;500&display=swap');
+
+body{
+  font-family: 'Roboto';
+  font-style: normal;
+}
+
+.shoping{
+  display: flex;
+  flex-direction: row;
+  max-width: 1280px;
+  margin: 0 auto;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.order{
+  max-width: 605px;
+  width: 50%;
+}
+
+.delivery{
+  max-width: 567px;
+  width: 50%;
+}
+
+h2{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 120%;
+  color: #26292E;
+  margin: 0 0 55px 0;
+}
+
+label{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  color: #26292E;
+  margin: 0 0 10px 0;
+}
+
+.delivery label{
+  display: inline-block;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 35px;
+  color: #414141;
+  margin: 29px 0 0 0;
+}
+
+.delivery input{
+  box-sizing: border-box;
+  width: 16px;
+  height: 15px;
+  border: 1px solid #408858;
+}
+
+input[type="text"], textarea{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  color: #26292E;
+  background: #FFFFFF;
+  border: 0px;
+  box-shadow: 0px 0px 10px rgba(38, 41, 46, 0.25);
+  width: 100%;
+  margin: 0 0 19px 0;
+  padding: 14px 19px;
+}
+
+input::placeholder{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 120%;
+  color: #C4C4C4;
+}
+
+p{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  color: #414141;
+  margin: 0 0 9px 0;
+  width: 100%;
+  margin: 0 0 9px 0;
+}
+
+button{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #408858;
+  border-radius: 5px;
+  padding: 17px 35px;
+  border: 0;
+}
+
+@media (max-width: 1000px){
+  .shoping{
+    flex-direction: column;
+  }
+  .order{
+    width: 100%;
+    margin: auto;
+  }
+  .delivery{
+    width: 100%;
+    margin: auto;
+  }
+  button{
+    margin: auto;
+    display: block;
+  }
+}
+
+
+
+
+
